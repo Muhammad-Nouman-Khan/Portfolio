@@ -65,18 +65,6 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-VITE_APP_EMAILJS_SERVICE_ID=your_emailjs_user_id
-VITE_APP_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
-VITE_APP_EMAILJS_PUBLIC_KEY=your_emailjs_receiver_id
-```
-
-Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
-
 **Running the Project**
 
 ```bash
